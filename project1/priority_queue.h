@@ -1,3 +1,5 @@
+#ifndef CODEREVIEW_PROJECT1_PRIORITY_QUEUE_H_
+#define CODEREVIEW_PROJECT1_PRIORITY_QUEUE_H_
 #include <queue>
 
 template <typename T> 
@@ -13,3 +15,4 @@ class templatePriorityQueue {
 		void push(const T&);
 		void pop();	
 };
+#endif  // CODEREVIEW_PROJECT1_PRIORITY_QUEUE_H_
